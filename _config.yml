@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Edward Li"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/bio-photo.jpg"
   bio              : "I wrote this guide for Advanced Writing in the Sciences!"
   location         : "Somewhere over the Rainbow"
   email            :
