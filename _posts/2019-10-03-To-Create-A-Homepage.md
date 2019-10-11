@@ -21,7 +21,7 @@ hour!
 ## Getting Started
 
 
-#### Setting up an account
+### Setting up an account
 To get started, you’ll need a Github account. They’re free, luckily, and if you’re a student, you can even 
 get premium features for free! Navigate to [https://github.com](https://github.com), 
 and create an account. Set the username to something memorable, your site’s URL is going to be based 
@@ -31,7 +31,7 @@ You should now see something like this (except a lot more empty):
 
 ![](../assets/images/1.png)
  
-#### Stealing Other People's Work
+### Stealing Other People's Work
 Click Search or jump to. We’re going to be setting up a theme for our website called [mmistakes/
 minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), so search for that in the search bar. 
 You should see something like this pop up:
@@ -46,7 +46,7 @@ it should now say `<your-username>minimal-mistakes`. Now go to “Settings,”
 
 ![](../assets/images/3.png)
  
-#### Turning it into your own
+### Turning it into your own
 You should see an option called “Respository name.” Rename it to `<your-username>.github.io`. This tells Github “I want this to be where the code my website lives.”
 
 ![](../assets/images/4.png)
@@ -67,7 +67,7 @@ repository, and find the file called `_config.yml`
 
 Click on the file, and click on the pencil in the next menu:
  
-#### Customizing the Title
+### Customizing the Title
 Let’s make some changes, shall we? There’s a lot going on here, but basically, this is where you can put 
 “global” changes to your website – changing the title of your site, or the social media links at the 
 bottom of sites, etc. Let’s change a few small things to show how it works!
@@ -113,7 +113,7 @@ That’s quite a bit changed ! Let’s commit it for now.
 Boom that looks good!
 
 
-#### Adding Social Medias
+### Adding Social Medias
 But hmm, we want to add our job stuff right? Let’s add our Linkedin! Go back to _config.yml again… and scroll right to where we just edited our User stuff!
 
 Now let’s add a few lines of code underneath where “Instagram” is. It’ll go like:
@@ -132,7 +132,7 @@ One last thing, let’s add a picture! You can upload anything you want. I’m g
 photo.
 
 
-#### Adding A Profile Image
+### Adding A Profile Image
 Go to the line that says `avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"`, and get 
 rid of the part `# path of avatar image, e.g.`. Also replace “/assets/images/bio-photo.jpg” with `assets/
 bio-photo.jpg` (don’t forget to commit!) 
@@ -196,7 +196,7 @@ Let’s see what my site looks like.
 Check it out [here!](https://cheesesisland.com/AWDSite/test/)
 
 
-# Conclusion
+## Conclusion
 
 That’s all I got for now. To add more posts, just make more and more files! To learn more about the theme, 
 check out [the quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/). To learn more about 
