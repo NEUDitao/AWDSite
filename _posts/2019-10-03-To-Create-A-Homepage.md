@@ -10,7 +10,11 @@ personalized blog online, whether it be through WordPress, Wix, Google Sites, or
 
 However, all of these sites still limit you with templates, and lock the source of your website behind 
 paywalls -- if the service goes down, your site is lost forever. What I’ll be showing today is an 
-alternative, using Github Pages to host your own website with your own code online, for free! Through this 
+alternative, using Github Pages to host your own website with your own code online, for free! 
+Github is a place to share text files... mostly code projects. However, through some cool tools people
+have made, you can make a website just by editing small pieces of text.
+
+Through this 
 guide, even with no coding experience, you can get a personalized website up and running in less than an 
 hour!
 
