@@ -1,5 +1,5 @@
 ---
-title: To Create a Homepage
+title: Creating a Simple Home Page
 toc: true
 ---
 
@@ -11,12 +11,10 @@ personalized blog online, whether it be through WordPress, Wix, Google Sites, or
 However, all of these sites still limit you with templates, and lock the source of your website behind 
 paywalls -- if the service goes down, your site is lost forever. What I’ll be showing today is an 
 alternative, using Github Pages to host your own website with your own code online, for free! 
-Github is a place to share text files... mostly code projects. However, through some cool tools people
-have made, you can make a website just by editing small pieces of text.
+Github is a website generally dedicated to allowing people to share code. However, through some cool tools people
+have made, you can make a website just by editing small pieces of text. This guide presumes only the ability to navigate the internet, and locate/edit text.
 
-Through this 
-guide, even with no coding experience, you can get a personalized website up and running in less than an 
-hour!
+Through this guide, you can get a personalized website up and running in less than an hour!
 
 ## Getting Started
 
@@ -33,21 +31,23 @@ You should now see something like this (except a lot more empty):
  
 ### Stealing Other People's Work
 Click Search or jump to. We’re going to be setting up a theme for our website called [mmistakes/
-minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), so search for that in the search bar. 
+minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), so search for that in the search bar. (you can also just click on the blue text to get a link).
 You should see something like this pop up:
 
 ![](../assets/images/2.png)
  
 
-If you want to see an example of this theme, navigate around this page! It also uses the theme. Now, 
-there’s a button near the top right that says “Fork.” Click on that button, and click on your profile 
-picture. Now, it should navigate you to something that looks like the same thing, but with one difference, 
+If you want to see an example of what your site will look like, navigate around this page! It's similar to what you're going to set up will look like. 
+
+
+Now, returning to where we were, there’s a button near the top right that says “Fork.” Click on that button, and click on your profile 
+picture. It should navigate you to something that looks like the same thing, but with one **key** difference, 
 it should now say `<your-username>minimal-mistakes`. Now go to “Settings,” 
 
 ![](../assets/images/3.png)
  
 ### Turning it into your own
-You should see an option called “Respository name.” Rename it to `<your-username>.github.io`. This tells Github “I want this to be where the code my website lives.”
+You should see an option called “Respository name.” Rename it to `<your-username>.github.io`. This tells Github “I want this to be where the code for my website lives.”
 
 ![](../assets/images/4.png)
  
@@ -61,7 +61,7 @@ to `<your-username>.github.io` (from now on, we’ll be referring to that as the
  
 
 Hm… not much going on right now is there? That’s alright, let’s get some customization in! Go back to your 
-repository, and find the file called `_config.yml`
+repository, and find the file called `_config.yml`. What you're seeing on the main Github page is actually something similar to Windows Explorer, or Finder for Mac. It's files and folders.
  
  ![](../assets/images/6.png)
 
@@ -69,18 +69,17 @@ Click on the file, and click on the pencil in the next menu:
  
 ### Customizing the Title
 Let’s make some changes, shall we? There’s a lot going on here, but basically, this is where you can put 
-“global” changes to your website – changing the title of your site, or the social media links at the 
-bottom of sites, etc. Let’s change a few small things to show how it works!
+“global” changes to your website –- changing the title of your site, or the social media links at the 
+bottom of sites, things that can be seen no matter where someone navigates. Each "field", or thing on the left of the colon, corresponds to a personalization you can make. As they say though, doing is the best way to learn, so let's change some things!
 
 ![](../assets/images/7.png)
 
-First, let’s find the line that says `title: “Site Title”`. We probably want to change that to something a 
+First, let’s find the line that says `title: “Site Title”` (if you're lost, you can find the words using the "find on page" feature in your browser). We probably want to change that to something a 
 little more personalized. Feel free to change it to whatever you want!
  
  ![](../assets/images/8.png)
 
-Make sure that all changes you make are between quotation marks, or else things will start getting messed 
-up.
+Make sure that all changes you make are between quotation marks, or else things will start getting messed up.
 
 Under `#Site Settings`, I changed my name, description, and title. That’s enough for now, isn’t it? Let’s 
 save these changes, and see how it’s changed our site! Scroll to the bottom of the site, and you’ll see 
@@ -88,7 +87,7 @@ this:
  
 ![](../assets/images/9.png)
 
-Press commit changes and, voila! The changes are now online! You might need to wait a moment, or open an 
+Press commit changes (which basically saves your changes) and, voila! The changes are now online! You might need to wait a moment, or open an 
 incognito window, but when the website refreshes, you should see some of your changes reflected!
 
 ![](../assets/images/10.png) 
@@ -168,7 +167,7 @@ Today’s date should be formatted as `<YYYY-MM-DD>`. So I’ll call mine `2019-
 ![](../assets/images/18.png)
 
 Now, let’s name it something, shall we?
-Let’s add this bit of code to it.
+Let’s add this bit of text to it, at the very top of the file.
 ```
 ---
 title: My First Post
@@ -178,14 +177,16 @@ tags:
 ---
 ```
   
-And boom! Now we’re going to just add some text, and we’re going to be done!
+Every time you make a new post, just make sure to add this little bit to the top, to name your post and give it tags.
+
+Now, let's write the body of the blog post, and we'll be done!
 
 So some quick tips while writing this blog post,
 
-If you put a “#” in front of something, it makes a Header, like Word headers.
-Putting double asterisks around a word makes it bold.
-Doing [link](url) creates a hyperlink
-Doing ![](image-link) does images!
+- If you put a “#” in front of something, it makes a Header, like Word headers.
+- Putting double asterisks around a word makes it bold.
+- Doing [link](url) creates a hyperlink
+- Doing ![](image-link) does images!
 
 It’s pretty cool!
 
